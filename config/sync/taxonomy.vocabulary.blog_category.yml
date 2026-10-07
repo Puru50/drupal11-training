@@ -1,0 +1,9 @@
+uuid: c3dbdae3-e94c-467e-a36d-0ffa91869e99
+langcode: en
+status: true
+dependencies: {  }
+name: 'Blog Category'
+vid: blog_category
+description: 'Categories used to organize blog articles.'
+weight: 0
+new_revision: false

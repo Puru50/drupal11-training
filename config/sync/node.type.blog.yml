@@ -1,0 +1,11 @@
+uuid: bcc10d3c-156f-442a-85e7-c53c294cf617
+langcode: en
+status: true
+dependencies: {  }
+name: Blog
+type: blog
+description: 'Training blog articles with structured content and reusable sections.'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true

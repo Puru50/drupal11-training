@@ -1,0 +1,45 @@
+uuid: 7d245be1-9223-4f65-811e-1ce7389cf657
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_content_sections
+    - node.type.blog
+    - paragraphs.paragraphs_type.image_block
+    - paragraphs.paragraphs_type.quote
+    - paragraphs.paragraphs_type.text_block
+    - paragraphs.paragraphs_type.text_image
+  module:
+    - entity_reference_revisions
+id: node.blog.field_content_sections
+field_name: field_content_sections
+entity_type: node
+bundle: blog
+label: 'Content sections'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      text_block: text_block
+      image_block: image_block
+      quote: quote
+      text_image: text_image
+    target_bundles_drag_drop:
+      image_block:
+        weight: 0
+        enabled: true
+      quote:
+        weight: 0
+        enabled: true
+      text_block:
+        weight: 0
+        enabled: true
+      text_image:
+        weight: 0
+        enabled: true
+field_type: entity_reference_revisions
