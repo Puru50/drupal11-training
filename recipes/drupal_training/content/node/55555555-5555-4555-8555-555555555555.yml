@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 55555555-5555-4555-8555-555555555555
+  bundle: article
+  default_langcode: en
+  depends:
+    11111111-1111-4111-8111-111111111111: node
+    bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb: taxonomy_term
+default:
+  title:
+    - value: 'Understanding Drupal Views'
+  body:
+    - value: 'Build dynamic listings and learn how Views queries content.'
+      summary: 'Create configurable Drupal listings.'
+      format: basic_html
+  field_author:
+    - entity: 11111111-1111-4111-8111-111111111111
+  field_category:
+    - entity: bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb
+  status:
+    - value: true
+  uid:
+    - target_id: 1

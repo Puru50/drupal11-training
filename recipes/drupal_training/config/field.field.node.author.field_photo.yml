@@ -1,0 +1,30 @@
+uuid: 6a3f712f-14c5-4590-8406-4bdc34d6ae5e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_photo
+    - node.type.author
+  module:
+    - image
+field_name: field_photo
+entity_type: node
+bundle: author
+label: Photo
+description: 'Portrait for the author profile.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_extensions: 'png gif jpg jpeg webp'
+  alt_field: true
+  alt_field_required: false
+  title_field: false
+  title_field_required: false
+  max_resolution: ''
+  min_resolution: ''
+  default_image: {  }
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

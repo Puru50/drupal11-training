@@ -63,3 +63,12 @@
 /drush
 /drupal.phar
 /drupal
+
+# Ignore machine-specific DDEV state and generated files
+/.ddev/.env
+/.ddev/.env.*
+/.ddev/config.local.yaml
+/.ddev/config.*.local.yaml
+/.ddev/db_snapshots/
+/.ddev/traefik/certs/
+/.ddev/traefik/config/

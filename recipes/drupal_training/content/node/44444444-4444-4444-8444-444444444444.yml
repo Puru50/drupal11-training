@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 44444444-4444-4444-8444-444444444444
+  bundle: article
+  default_langcode: en
+  depends:
+    11111111-1111-4111-8111-111111111111: node
+    aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa: taxonomy_term
+default:
+  title:
+    - value: 'Introduction to Drupal'
+  body:
+    - value: 'An introduction to Drupal content modeling, configuration, and site building.'
+      summary: 'Start with Drupal fundamentals.'
+      format: basic_html
+  field_author:
+    - entity: 11111111-1111-4111-8111-111111111111
+  field_category:
+    - entity: aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa
+  status:
+    - value: true
+  uid:
+    - target_id: 1

@@ -1,0 +1,45 @@
+uuid: 76faf127-9f1e-4b7d-8299-a0188dc55e5a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.author_profile
+    - field.field.node.author.field_bio
+    - field.field.node.author.field_designation
+    - field.field.node.author.field_photo
+    - node.type.author
+  module:
+    - image
+    - text
+id: node.author.author_profile
+targetEntityType: node
+bundle: author
+mode: author_profile
+content:
+  field_photo:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: large
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_designation:
+    type: string
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_bio:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  langcode: true
+  promote: true
+  sticky: true

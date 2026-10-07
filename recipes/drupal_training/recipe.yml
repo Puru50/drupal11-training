@@ -1,0 +1,17 @@
+name: Drupal Training Content Model
+description: Adds the Article, Author, category, display mode, Layout Builder, Views, and Paragraphs configuration used by the training exercises.
+type: Training
+install:
+  - entity_reference_revisions
+  - image
+  - layout_builder
+  - link
+  - menu_ui
+  - node
+  - paragraphs
+  - taxonomy
+  - text
+  - views
+config:
+  import:
+    paragraphs: '*'

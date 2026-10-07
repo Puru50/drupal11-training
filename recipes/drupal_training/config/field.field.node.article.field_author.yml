@@ -1,0 +1,29 @@
+uuid: 3fcd42ce-3f2e-4c9b-ad05-7c27737c40e4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_author
+    - node.type.article
+    - node.type.author
+  module:
+    - node
+field_name: field_author
+entity_type: node
+bundle: article
+label: Author
+description: 'Select the author profile for this article.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      author: author
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,11 @@
+uuid: 7d74b978-e0a8-413b-9279-8bd410116109
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: gu-OElgYSywzM9MmnjznF6dKej7FBC04BZTYiI0K5Rs
+name: Category
+vid: category
+description: 'Categories used to organize training articles.'
+weight: 0
+new_revision: false

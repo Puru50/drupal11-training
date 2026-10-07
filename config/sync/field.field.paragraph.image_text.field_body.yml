@@ -1,0 +1,24 @@
+uuid: e5f04b61-af5d-46f5-9270-3ac6cad143dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_body
+    - paragraphs.paragraphs_type.image_text
+  module:
+    - text
+_core:
+  default_config_hash: XAFU5vt9Fg-05Nwy8Cu8SxCZnUZvpjWPMudUwLIKx9c
+id: paragraph.image_text.field_body
+field_name: field_body
+entity_type: paragraph
+bundle: image_text
+label: Text
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

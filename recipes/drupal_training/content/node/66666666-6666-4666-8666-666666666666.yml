@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 66666666-6666-4666-8666-666666666666
+  bundle: article
+  default_langcode: en
+  depends:
+    22222222-2222-4222-8222-222222222222: node
+    bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb: taxonomy_term
+default:
+  title:
+    - value: 'Drupal Layout Builder'
+  body:
+    - value: 'Arrange fields, blocks, and Views in reusable page layouts.'
+      summary: 'Compose pages visually with Layout Builder.'
+      format: basic_html
+  field_author:
+    - entity: 22222222-2222-4222-8222-222222222222
+  field_category:
+    - entity: bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb
+  status:
+    - value: true
+  uid:
+    - target_id: 1

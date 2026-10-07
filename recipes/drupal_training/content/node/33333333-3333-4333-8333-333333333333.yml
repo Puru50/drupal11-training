@@ -1,0 +1,18 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 33333333-3333-4333-8333-333333333333
+  bundle: author
+  default_langcode: en
+default:
+  title:
+    - value: Mike
+  field_designation:
+    - value: Site Builder
+  field_bio:
+    - value: 'Mike builds editorial workflows with Drupal core tools.'
+      format: basic_html
+  status:
+    - value: true
+  uid:
+    - target_id: 1

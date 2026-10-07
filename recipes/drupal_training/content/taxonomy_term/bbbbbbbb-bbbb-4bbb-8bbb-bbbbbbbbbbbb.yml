@@ -1,0 +1,11 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb
+  bundle: category
+  default_langcode: en
+default:
+  name:
+    - value: 'Site Building'
+  vid:
+    - target_id: category

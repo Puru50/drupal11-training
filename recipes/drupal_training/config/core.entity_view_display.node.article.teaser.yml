@@ -1,0 +1,35 @@
+uuid: c7a2e927-6f29-4f6e-b83f-004a8ab6feea
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.article.field_image
+    - node.type.article
+  module:
+    - image
+id: node.article.teaser
+targetEntityType: node
+bundle: article
+mode: teaser
+content:
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: content
+      image_style: medium
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_author: true
+  field_category: true
+  field_sections: true
+  langcode: true
+  promote: true
+  sticky: true

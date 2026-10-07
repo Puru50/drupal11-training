@@ -1,0 +1,24 @@
+uuid: 1f534475-0687-414d-bc5c-8cdd5c98111b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bio
+    - node.type.author
+  module:
+    - text
+_core:
+  default_config_hash: V67LND12o3gf5-_6_ySSLyMUgfEcRz_tsAoWVphQR40
+id: node.author.field_bio
+field_name: field_bio
+entity_type: node
+bundle: author
+label: Bio
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

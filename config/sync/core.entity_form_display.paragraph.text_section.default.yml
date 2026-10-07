@@ -1,0 +1,36 @@
+uuid: 02c6c004-bacf-43df-93ef-ec7dab9c2444
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.text_section.field_body
+    - field.field.paragraph.text_section.field_heading
+    - paragraphs.paragraphs_type.text_section
+  module:
+    - text
+_core:
+  default_config_hash: WcU4aMj8eR3BL3jS8GyLPQrmMOHNu24WZs9yTTzMsQ0
+id: paragraph.text_section.default
+targetEntityType: paragraph
+bundle: text_section
+mode: default
+content:
+  field_body:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 8
+      placeholder: ''
+    third_party_settings: {  }
+  field_heading:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

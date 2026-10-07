@@ -1,0 +1,40 @@
+uuid: 4095b4ce-8c5a-4735-85f4-8d23e6934dc0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sections
+    - node.type.landing_page
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: tKCrGy2VUSgBrUc3Pzz54zknSZvPKbwA_WtG6LVFZJk
+id: node.landing_page.field_sections
+field_name: field_sections
+entity_type: node
+bundle: landing_page
+label: 'Page sections'
+description: 'Add and reorder structured page components.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      hero: hero
+      text_section: text_section
+      image_text: image_text
+    negate: 0
+    target_bundles_drag_drop:
+      hero:
+        weight: 0
+        enabled: true
+      image_text:
+        weight: 2
+        enabled: true
+      text_section:
+        weight: 1
+        enabled: true
+field_type: entity_reference_revisions

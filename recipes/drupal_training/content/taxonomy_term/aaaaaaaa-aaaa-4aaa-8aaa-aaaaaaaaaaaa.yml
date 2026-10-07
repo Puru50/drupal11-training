@@ -1,0 +1,11 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa
+  bundle: category
+  default_langcode: en
+default:
+  name:
+    - value: Drupal
+  vid:
+    - target_id: category

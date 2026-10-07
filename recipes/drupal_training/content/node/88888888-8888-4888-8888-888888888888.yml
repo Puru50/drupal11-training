@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 88888888-8888-4888-8888-888888888888
+  bundle: article
+  default_langcode: en
+  depends:
+    22222222-2222-4222-8222-222222222222: node
+    aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa: taxonomy_term
+default:
+  title:
+    - value: 'Drupal Configuration Management'
+  body:
+    - value: 'Move site configuration between environments with config management.'
+      summary: 'Understand Drupal configuration imports and exports.'
+      format: basic_html
+  field_author:
+    - entity: 22222222-2222-4222-8222-222222222222
+  field_category:
+    - entity: aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa
+  status:
+    - value: true
+  uid:
+    - target_id: 1

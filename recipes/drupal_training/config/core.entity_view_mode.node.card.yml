@@ -1,0 +1,11 @@
+uuid: d1235eec-fb21-4877-ae75-f0180863a012
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.card
+label: Card
+description: 'Compact article presentation for listings and Views.'
+targetEntityType: node
+cache: true

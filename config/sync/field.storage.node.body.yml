@@ -1,0 +1,21 @@
+uuid: 9a3da872-b0e9-4c50-9a8e-4b4bf3bfa10d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+_core:
+  default_config_hash: MGqbNoKDrSslleE7IDZx3J34a-h_LnpVLdpxf6HI_is
+id: node.body
+field_name: body
+entity_type: node
+type: text_with_summary
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

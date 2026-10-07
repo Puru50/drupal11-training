@@ -1,0 +1,12 @@
+uuid: 6c79dde5-5b52-41f1-a472-d4872cac8d79
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: text_section
+label: 'Text section'
+icon_uuid: null
+icon_default: null
+description: 'A heading and rich text section.'
+behavior_plugins: {  }

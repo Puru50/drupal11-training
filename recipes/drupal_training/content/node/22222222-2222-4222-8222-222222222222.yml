@@ -1,0 +1,18 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 22222222-2222-4222-8222-222222222222
+  bundle: author
+  default_langcode: en
+default:
+  title:
+    - value: Sarah
+  field_designation:
+    - value: Developer
+  field_bio:
+    - value: 'Sarah focuses on Drupal user experience and front-end development.'
+      format: basic_html
+  status:
+    - value: true
+  uid:
+    - target_id: 1

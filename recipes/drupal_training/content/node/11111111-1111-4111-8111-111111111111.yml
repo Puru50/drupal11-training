@@ -1,0 +1,18 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 11111111-1111-4111-8111-111111111111
+  bundle: author
+  default_langcode: en
+default:
+  title:
+    - value: John
+  field_designation:
+    - value: Architect
+  field_bio:
+    - value: 'John writes about Drupal architecture and site building.'
+      format: basic_html
+  status:
+    - value: true
+  uid:
+    - target_id: 1

@@ -1,0 +1,12 @@
+uuid: 9918e586-4ebf-4f06-80c8-bd959857d401
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: hero
+label: Hero
+icon_uuid: null
+icon_default: null
+description: 'Hero component with heading, introduction, image, and link.'
+behavior_plugins: {  }

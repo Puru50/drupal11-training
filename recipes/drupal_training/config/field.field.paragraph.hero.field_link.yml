@@ -1,0 +1,20 @@
+uuid: a279bffd-005f-4c5d-9a4f-c99439512db4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_link
+    - paragraphs.paragraphs_type.hero
+  module:
+    - link
+field_name: field_link
+entity_type: paragraph
+bundle: hero
+label: 'Call to action'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: link
